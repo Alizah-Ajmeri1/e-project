@@ -38,7 +38,7 @@
     display: inline-block;
 }
 .nav-icons{
-   margin-left: 450px;
+   margin-left: 300px;
 }
 .nav-item {
   font-size: 17px;
@@ -304,8 +304,12 @@ font-weight: bold;
   color: white;
   background-color:rgba(184, 135, 11, 0.603); 
 }
-/* Footer start */
 
+@media screen and (max-width:1440px) {
+  .nav-icons{
+    margin-left: 450px;
+ }
+}
 
 @media screen and (max-width:1024px){
   .nav-icons{
