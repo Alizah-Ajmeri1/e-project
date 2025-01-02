@@ -292,10 +292,8 @@ margin-left: 10px;
 
     }
     .accordian-body ul li .li-que p{
-    width: 185px;
+    width: 160px;
     font-size: 13px;
-
-        
     }
     .col-4 {
         width: 100%;
@@ -308,4 +306,13 @@ margin-left: 10px;
         padding-top: 80px;
     }
 
+}
+@media screen and (max-width:320px){
+  .accordian-body ul li .li-que p{
+    width: 100px;
+    font-size: 13px;
+    }
+    .FAQ-banner {
+      height: 275px;
+  }
 }

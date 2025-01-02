@@ -38,7 +38,7 @@
     display: inline-block;
 }
 .nav-icons{
-   margin-left: 300px;
+   margin-left: 450px;
 }
 .nav-item {
   font-size: 17px;
@@ -52,6 +52,9 @@
   color: black;
   width:100%;
   background-color: rgb(231, 225, 225);
+  margin-top: 0;
+  top: 0;
+  z-index: 1;
 }
 .navbar-brand{
   /* border: 2px solid red; */
@@ -305,7 +308,7 @@ font-weight: bold;
   background-color:rgba(184, 135, 11, 0.603); 
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) {
   .nav-icons{
     margin-left: 450px;
  }
@@ -356,6 +359,11 @@ font-size: 14px;
   height: 36px;
   font-size: 14px;
 }
+}
+@media screen and (max-width:996px) {
+  .nav-icons{
+    margin-left:-12px;
+  }
 }
 @media screen and (max-width:768px){
   .nav-icons{
